@@ -1,10 +1,11 @@
 /*fonts*/
+
 @import url('https://fonts.googleapis.com/css?family=Nunito:200,400|Roboto+Condensed|Sunflower:300,500,700');
 
-/*Reset*/
-*, body {
 
-}
+/*Reset*/
+
+*, body {}
 
 *, h1, h2, h3, h4, h5, h6, li, p, a, nav, body {
     margin: 0;
@@ -13,20 +14,58 @@
     -webkit-margin-after: 0;
 }
 
+
 /* End reset section */
 
+
 /* uniform styles */
+
+body {
+    background-color: #2D2D2D;
+}
+
+.outerwrap {
+    border-left: medium solid rgba(227, 227, 227, 0.2);
+    margin-left: 7em;
+    height: 2000px;
+
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: "Nunito";
     font-weight: 100;
     text-transform: uppercase;
     letter-spacing: 0.05em;
+}
 
+a {
+    text-decoration: none;
 }
 
 
-body {
-    background-color: #2D2D2D;
+/* nav styles */
+nav div.name {
+    float: left;
+}
+
+nav h1 a, nav h2 a, nav li a {
+    color: #e3e3e3;
+}
+
+nav h1 {
+    font-size: 70px;
+    padding-left: 40px;
+
+}
+
+nav h2 {
+    font-size: 50px;
+    padding-left: 40px;
+}
+
+nav ul {
+    display: inline-block;
+    margin-left: 3em;
 }
 
 nav li {
@@ -35,39 +74,10 @@ nav li {
     padding: 1em;
 }
 
-nav li a {
-    text-decoration: none;
-
-}
-
 nav li a:hover {
     color: orangered;
-}
-
-
-nav h1, nav h2, nav li a {
-    color: #e3e3e3;
-    
-}
-
-
-nav h1 {
-    font-size: 70px;
-    margin-left: 1.5em;
-
-}
-
-nav h2 {
-    font-size: 50px;
-    margin-left: 2em;
-}
-
-nav div.name {
-    float: left;
-}
-
-nav ul {
-    display: inline-block;
+    border-left: thin solid orangered;
+    border-bottom: thin solid orangered;
 }
 
 nav li a {
@@ -79,3 +89,8 @@ nav li a {
     border-bottom: thin solid #e3e3e3;
 }
 
+nav a.currentPage {
+    border-left: thin solid rgba(238, 238, 238, 0.1);
+    border-bottom: thin solid rgba(238, 238, 238, 0.1);
+
+}
