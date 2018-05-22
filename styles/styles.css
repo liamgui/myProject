@@ -1,0 +1,31 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,400|Roboto+Condensed|Sunflower:300,500,700');
+
+/*Reset*/
+*, body {
+
+}
+
+*, h1, h2, h3, h4, h5, h6, li, p, a, nav, body {
+    margin: 0;
+    padding: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+
+
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 1em;
+}
+
+nav li a {
+    text-decoration: none;
+
+}
+
+nav li a:hover {
+    color: orangered;
+}
