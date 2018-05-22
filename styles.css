@@ -1,3 +1,19 @@
 body {
     background-color: rgb(49, 104, 115);
 }
+nav h1 {
+    color: #e4e4e4;
+}
+
+nav h2 {
+    color: #e4e4e4;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(240, 240, 240);
+}
