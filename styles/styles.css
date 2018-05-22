@@ -13,7 +13,21 @@
     -webkit-margin-after: 0;
 }
 
+/* End reset section */
 
+/* uniform styles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Nunito";
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+
+}
+
+
+body {
+    background-color: #2D2D2D;
+}
 
 nav li {
     list-style: none;
@@ -29,3 +43,39 @@ nav li a {
 nav li a:hover {
     color: orangered;
 }
+
+
+nav h1, nav h2, nav li a {
+    color: #e3e3e3;
+    
+}
+
+
+nav h1 {
+    font-size: 70px;
+    margin-left: 1.5em;
+
+}
+
+nav h2 {
+    font-size: 50px;
+    margin-left: 2em;
+}
+
+nav div.name {
+    float: left;
+}
+
+nav ul {
+    display: inline-block;
+}
+
+nav li a {
+    font-family: "Sunflower";
+    font-weight: 300;
+    padding-left: 0.4em;
+    padding-bottom: 0.4em;
+    border-left: thin solid #e3e3e3;
+    border-bottom: thin solid #e3e3e3;
+}
+
